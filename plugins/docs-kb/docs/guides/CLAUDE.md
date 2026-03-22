@@ -19,8 +19,8 @@ Practical how-to guides for common tasks and workflows in the Nimbus platform. E
 
 ## See Also
 
-- [Testing](../testing/_index.md) — test strategies and tooling
-- [Conventions](../conventions/_index.md) — coding standards and patterns
+- [Testing](../testing/CLAUDE.md) — test strategies and tooling
+- [Conventions](../conventions/CLAUDE.md) — coding standards and patterns
 
 <!-- last-verified: 2026-03-15 -->
 <!-- verify-when: new guide is added or an existing guide is renamed -->

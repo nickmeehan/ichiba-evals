@@ -54,7 +54,7 @@ When a workspace admin disconnects an integration, Nimbus calls the provider's r
 ## See Also
 
 - [Auth Service](../auth.md) - Social login using OAuth
-- [SSO Providers](./sso-providers/_index.md) - Enterprise OAuth/OIDC flows
+- [SSO Providers](./sso-providers/CLAUDE.md) - Enterprise OAuth/OIDC flows
 - [Secrets Management](../../infrastructure/secrets.md) - Encryption key storage
 
 <!-- last-verified: 2026-03-15 -->

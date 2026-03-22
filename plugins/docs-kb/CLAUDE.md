@@ -8,7 +8,7 @@ Evaluation harness for the docs-kb plugin's `doc-traversal` agent. Tests how wel
 agents/
   doc-traversal.md # The agent under test (working copy from docs-kb plugin)
 docs/              # 188-doc fictional "Nimbus" SaaS corpus (test data)
-  _index.md        # Root index — the agent's entry point
+  CLAUDE.md        # Root index — auto-loaded as the agent's entry point
   api/             # 51 endpoint docs (width stress test)
   architecture/    # 7-level nesting (depth stress test)
   conventions/     # 10 coding standards
@@ -35,7 +35,7 @@ baselines/
 
 Use `eval/run-eval.md` as a prompt. It spawns 10 trials per query (6 queries = 60 trials) using `doc-traversal` agent with `model: haiku`.
 
-The agent reads `docs/_index.md` and navigates the tree to find docs relevant to each query.
+The agent starts in `docs/` where `CLAUDE.md` is auto-loaded, then navigates the tree to find docs relevant to each query.
 
 ### 2. Score results
 
@@ -57,7 +57,7 @@ python3 eval/score-results.py eval/results/
 To compare before/after when changing the agent or descriptions:
 
 1. Copy `eval/results/` to a baseline: `cp -r eval/results/ baselines/<name>/`
-2. Make your changes to `agents/doc-traversal.md` or `docs/**/_index.md`
+2. Make your changes to `agents/doc-traversal.md` or `docs/**/CLAUDE.md`
 3. Re-run trials (step 1)
 4. Score both: current results vs baseline
 5. Compare metrics — look for recall/precision/consistency improvements without regressions
@@ -88,7 +88,7 @@ cp /path/to/ichiba/plugins/docs-kb/agents/doc-traversal.md agents/doc-traversal.
 ### Making and validating changes
 
 1. Run baseline evals against the current agent
-2. Edit `agents/doc-traversal.md` (or `docs/**/_index.md` descriptions)
+2. Edit `agents/doc-traversal.md` (or `docs/**/CLAUDE.md` descriptions)
 3. Re-run evals
 4. Compare metrics — look for improvements without regressions
 

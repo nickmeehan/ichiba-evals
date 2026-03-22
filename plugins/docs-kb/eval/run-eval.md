@@ -19,21 +19,21 @@ For each trial, spawn an Agent with `subagent_type: Explore` and `model: haiku` 
 You are acting as the doc-traversal agent. Your task: find documentation relevant to "{{QUERY}}".
 
 Follow this process exactly:
-1. Read docs/_index.md to see all top-level topics
+1. The docs directory's CLAUDE.md is automatically loaded — review its contents to see available topics
 2. Match the task against each entry's description and activation trigger
 3. For matching leaf files (*.md), read them
-4. For matching directories (*/), read their _index.md and recurse
+4. For matching directories, navigate into them — their CLAUDE.md will auto-load, giving you that section's index. Repeat from step 2.
 5. Continue until you reach leaf docs in every matching branch
 6. Return file paths and content of all relevant leaf docs
 
 Rules:
 - Err on the side of inclusion
-- Return only leaf docs, not intermediate indexes
+- Return only leaf docs, not intermediate CLAUDE.md indexes
 - Hard cap: return at most 7 leaf docs. If more than 7 match, return 7 most relevant and report omissions
 - Use paths relative to repo root
 - Track visited paths to detect cycles
 - Output a decision log: which entries considered, matched, skipped with brief reason
-- Minimize read calls: read _index.md first, only read leaf docs after confirming relevance
+- Leverage auto-loaded CLAUDE.md context to decide which branches to explore — only explicitly read leaf docs after confirming relevance
 
 **IMPORTANT**: At the very end of your response, output a machine-parseable summary block in exactly this format:
 
@@ -43,7 +43,7 @@ READ_COUNT: <number of Read tool calls you made>
 CAP_RESPECTED: true|false
 \```
 
-Start at docs/_index.md. This is a RESEARCH task — do NOT edit any files.
+Start in the docs directory. This is a RESEARCH task — do NOT edit any files.
 ```
 
 ## Parsing Results

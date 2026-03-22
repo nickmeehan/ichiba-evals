@@ -42,7 +42,7 @@ pnpm test:api          # API tests (supertest)
 
 - [CI/CD Pipeline](../guides/deployment/ci-cd.md) — test execution in CI
 - [Code Review](../guides/code-review.md) — test coverage expectations during review
-- [Conventions](../conventions/_index.md) — coding standards that affect test patterns
+- [Conventions](../conventions/CLAUDE.md) — coding standards that affect test patterns
 
 <!-- last-verified: 2026-03-15 -->
 <!-- verify-when: testing tools, test commands, or testing strategy changes -->

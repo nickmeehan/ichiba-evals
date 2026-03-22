@@ -42,8 +42,8 @@ The Nimbus frontend is a React 18 single-page application served via Next.js. It
 
 ## See Also
 
-- [Data Documentation](../data/_index.md)
-- [Ops Documentation](../ops/_index.md)
+- [Data Documentation](../data/CLAUDE.md)
+- [Ops Documentation](../ops/CLAUDE.md)
 
 <!-- last-verified: 2026-03-15 -->
 <!-- verify-when: new frontend guide is added or navigation structure changes -->
