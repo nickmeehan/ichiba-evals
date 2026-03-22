@@ -19,7 +19,7 @@ When you are working with inbound email parsing, configuring reply-by-email for 
 ### [Outbound Webhooks](./webhooks-outbound.md)
 When you need to register a new webhook event type, debug delivery failures, or understand the webhook signing mechanism.
 
-### [SSO Providers](./sso-providers/_index.md)
+### [SSO Providers](./sso-providers/CLAUDE.md)
 When you are configuring enterprise single sign-on with Okta, Azure AD, Google Workspace, or a generic SAML/LDAP provider.
 
 ### [OAuth Flows](./oauth-flows.md)

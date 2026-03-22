@@ -31,8 +31,8 @@ Conventions not enforceable by tooling are checked during code review.
 
 ## See Also
 
-- [Guides](../guides/_index.md) — how-to guides for common tasks
-- [Testing](../testing/_index.md) — test-specific conventions and tools
+- [Guides](../guides/CLAUDE.md) — how-to guides for common tasks
+- [Testing](../testing/CLAUDE.md) — test-specific conventions and tools
 - [Code Review](../guides/code-review.md) — how conventions are verified in review
 
 <!-- last-verified: 2026-03-15 -->

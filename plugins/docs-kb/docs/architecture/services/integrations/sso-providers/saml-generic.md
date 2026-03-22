@@ -58,7 +58,7 @@ SLO is optional and can be disabled if the IdP does not support it.
 
 ## See Also
 
-- [Okta SSO](./okta/_index.md) - Okta-specific SAML/OIDC setup
+- [Okta SSO](./okta/CLAUDE.md) - Okta-specific SAML/OIDC setup
 - [Azure AD SSO](./azure-ad.md) - Azure AD OIDC integration
 - [Auth Service](../../auth.md) - Session management after SAML login
 

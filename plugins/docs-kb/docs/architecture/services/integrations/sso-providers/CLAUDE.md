@@ -4,7 +4,7 @@ This section covers the enterprise single sign-on integrations available in Nimb
 
 ## Contents
 
-### [Okta](./okta/_index.md)
+### [Okta](./okta/CLAUDE.md)
 When you are configuring Okta as the identity provider, setting up SCIM provisioning, or troubleshooting Okta-specific authentication issues.
 
 ### [Azure AD](./azure-ad.md)

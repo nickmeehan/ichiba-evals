@@ -56,7 +56,7 @@ Active sessions are tracked in Redis. When a user's role changes or they are rem
 ## See Also
 
 - [OAuth Flows](./integrations/oauth-flows.md) - OAuth2 implementation details
-- [SSO Providers](./integrations/sso-providers/_index.md) - Enterprise SSO configuration
+- [SSO Providers](./integrations/sso-providers/CLAUDE.md) - Enterprise SSO configuration
 - [Multi-Tenancy](../multi-tenancy.md) - Tenant context in JWT claims
 
 <!-- last-verified: 2026-03-15 -->

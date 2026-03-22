@@ -13,7 +13,7 @@ When you need to enable automatic user provisioning and deprovisioning from Okta
 ### [Troubleshooting](./troubleshooting.md)
 When you are debugging SSO login failures, token validation errors, or mismatched redirect URIs between Okta and Nimbus.
 
-### [Configuration](./config/_index.md)
+### [Configuration](./config/CLAUDE.md)
 When you need step-by-step guides for specific Okta configuration tasks like app registration, attribute mapping, or MFA policies.
 
 ## Overview

@@ -103,7 +103,7 @@ def extract_docs_from_text(text):
     seen = set()
     result = []
     for d in all_refs:
-        if d.endswith('_index.md'):
+        if d.endswith('CLAUDE.md') or d.endswith('_index.md'):
             continue
         if is_placeholder(d):
             continue

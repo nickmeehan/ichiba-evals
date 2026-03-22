@@ -28,7 +28,7 @@ When you need to add audit trail entries for a new operation, query historical c
 ### [Scheduler](./scheduler.md)
 When you are creating background jobs, setting up recurring tasks, or debugging job failures and retry behavior.
 
-### [Integrations](./integrations/_index.md)
+### [Integrations](./integrations/CLAUDE.md)
 When you need to work with third-party services like Slack, GitHub, Jira, or configure SSO providers and outbound webhooks.
 
 ### [Rate Limiting](./rate-limiting.md)

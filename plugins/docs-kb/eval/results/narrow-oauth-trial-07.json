@@ -2,7 +2,13 @@
   "test_id": "narrow-oauth",
   "trial": 7,
   "query": "implementing OAuth token refresh",
-  "returned_docs": ["docs/architecture/services/integrations/oauth-flows.md", "docs/architecture/services/auth.md", "docs/api/authentication.md", "docs/guides/security/secrets-management.md", "docs/architecture/infrastructure/secrets.md", "docs/conventions/error-handling-patterns.md"],
-  "read_count": 15,
+  "returned_docs": [
+    "docs/architecture/services/integrations/oauth-flows.md",
+    "docs/architecture/services/auth.md",
+    "docs/api/authentication.md",
+    "docs/architecture/services/integrations/sso-providers/okta/config/app-registration.md",
+    "docs/guides/security/secrets-management.md"
+  ],
+  "read_count": 16,
   "cap_respected": true
 }

@@ -30,8 +30,8 @@ Nimbus runs on AWS across two regions (us-east-1 and eu-west-1) with Kubernetes 
 
 ## See Also
 
-- [Frontend Documentation](../frontend/_index.md)
-- [Data Documentation](../data/_index.md)
+- [Frontend Documentation](../frontend/CLAUDE.md)
+- [Data Documentation](../data/CLAUDE.md)
 
 <!-- last-verified: 2026-03-15 -->
 <!-- verify-when: new ops guide is added or infrastructure architecture changes -->

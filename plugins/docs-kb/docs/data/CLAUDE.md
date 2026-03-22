@@ -30,8 +30,8 @@ Nimbus manages complex multi-tenant project data spanning tasks, milestones, com
 
 ## See Also
 
-- [Frontend Documentation](../frontend/_index.md)
-- [Ops Documentation](../ops/_index.md)
+- [Frontend Documentation](../frontend/CLAUDE.md)
+- [Ops Documentation](../ops/CLAUDE.md)
 
 <!-- last-verified: 2026-03-15 -->
 <!-- verify-when: new data guide is added or data architecture changes significantly -->

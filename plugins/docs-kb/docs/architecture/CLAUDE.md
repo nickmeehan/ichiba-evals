@@ -22,13 +22,13 @@ When you are adding a new domain event, implementing a side-effect handler, or d
 ### [Multi-Tenancy](./multi-tenancy.md)
 When you are writing queries that touch tenant-scoped data, adding new tables, or investigating a potential cross-tenant data leak.
 
-### [Services](./services/_index.md)
+### [Services](./services/CLAUDE.md)
 When you need details on a specific backend service such as authentication, billing, notifications, or any of the third-party integrations.
 
-### [Database](./database/_index.md)
+### [Database](./database/CLAUDE.md)
 When you are working with the database schema, writing migrations, optimizing queries, or managing replication and backups.
 
-### [Infrastructure](./infrastructure/_index.md)
+### [Infrastructure](./infrastructure/CLAUDE.md)
 When you need to understand the deployment environment, Kubernetes configuration, Terraform modules, or monitoring and alerting setup.
 
 ## See Also

@@ -55,7 +55,7 @@ Analytics data can be exported in CSV or JSON format. Exports are generated as b
 ## See Also
 
 - [Event-Driven Architecture](../event-driven.md) - Analytics event capture
-- [ClickHouse / Database](../database/_index.md) - ClickHouse is separate from the primary PostgreSQL database
+- [ClickHouse / Database](../database/CLAUDE.md) - ClickHouse is separate from the primary PostgreSQL database
 - [Billing](./billing.md) - Feature gating for custom reports
 
 <!-- last-verified: 2026-03-15 -->

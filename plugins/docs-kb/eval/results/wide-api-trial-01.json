@@ -2,7 +2,15 @@
   "test_id": "wide-api",
   "trial": 1,
   "query": "setting up a new API endpoint",
-  "returned_docs": ["docs/api/rest-overview.md", "docs/conventions/api-design.md", "docs/api/authentication.md", "docs/api/error-codes.md", "docs/api/openapi-spec.md", "docs/api/versioning.md"],
-  "read_count": 9,
+  "returned_docs": [
+    "docs/api/rest-overview.md",
+    "docs/api/openapi-spec.md",
+    "docs/api/authentication.md",
+    "docs/api/error-codes.md",
+    "docs/api/versioning.md",
+    "docs/api/cors.md",
+    "docs/guides/local-dev.md"
+  ],
+  "read_count": 7,
   "cap_respected": true
 }
